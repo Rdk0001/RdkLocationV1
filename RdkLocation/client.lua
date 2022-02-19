@@ -17,7 +17,7 @@ local position = {
 
 ------------------ Menu --------------------
 
-RMenu.Add('rlocation', 'main', RageUI.CreateMenu("karting", "Menu Course"))
+RMenu.Add('rlocation', 'main', RageUI.CreateMenu("Location", "Menu Vehicule"))
 RMenu.Add('rlocation', 'vehicule', RageUI.CreateSubMenu(RMenu:Get('rlocation', 'main'), "Location", "Menu Location"))
 RMenu.Add('rlocation', 'rvehicule', RageUI.CreateSubMenu(RMenu:Get('rlocation', 'main'), "Location", "Menu Location"))
 RMenu.Add('rlocation', 'rvehiculev', RageUI.CreateSubMenu(RMenu:Get('rlocation', 'main'), "Location", "Menu Location"))
